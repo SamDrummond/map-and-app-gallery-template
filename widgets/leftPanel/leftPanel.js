@@ -1,4 +1,4 @@
-﻿/*global define,dojo,alert,CollectUniqueTags,TagCloudObj,ItemGallery */
+﻿                        /*global define,dojo,alert,CollectUniqueTags,TagCloudObj,ItemGallery */
 /*jslint browser:true,sloppy:true,nomen:true,unparam:true,plusplus:true,indent:4 */
 /*
  | Copyright 2014 Esri
@@ -340,7 +340,7 @@ define([
             for (i = 0; i < displayTags.length; i++) {
                 span = domConstruct.place(domConstruct.create('h3'), node);
                 domClass.add(span, "esriCTTagCloud");
-                domStyle.set(span, "fontSize", displayTags[i].fontSize + dojo.configData.values.tagCloudFontUnits);
+               // domStyle.set(span, "fontSize", displayTags[i].fontSize + dojo.configData.values.tagCloudFontUnits);
                 if (i !== (displayTags.length - 1)) {
                     domAttr.set(span, "innerHTML", displayTags[i].key + "  ");
                 } else {

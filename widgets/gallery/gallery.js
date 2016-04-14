@@ -227,8 +227,13 @@ define([
             }
             // Handle item title click in grid layout
             this.own(on(divItemTitleText, "click", lang.hitch(this, function () {
-                topic.publish("showProgressIndicator");
-                this.showInfoPage(itemResult, true);
+                //topic.publish("showProgressIndicator");
+                //this.showInfoPage(itemResult, true);
+				dataType = itemResult.type.toLowerCase();
+                if (((dataType !== "map service") && (dataType !== "web map") && (dataType !== "feature service") && (dataType !== "image service") && (dataType !== "kml") && (dataType !== "wms") && (dataType !== "vector tile service")) || (dataType === "operation view")) {
+                    dojo.downloadWindow = window.open('', "_blank");
+                }
+                this.showInfoPage(itemResult, false);
             })));
         },
 
@@ -417,8 +422,13 @@ define([
             }
             // Handle item title click in list layout
             this.own(on(divItemTitleText, "click", lang.hitch(this, function () {
-                topic.publish("showProgressIndicator");
-                this.showInfoPage(itemResult, true);
+                //topic.publish("showProgressIndicator");
+                //this.showInfoPage(itemResult, true);
+				dataType = itemResult.type.toLowerCase();
+                if (((dataType !== "map service") && (dataType !== "web map") && (dataType !== "feature service") && (dataType !== "image service") && (dataType !== "kml") && (dataType !== "wms") && (dataType !== "vector tile service")) || (dataType === "operation view")) {
+                    dojo.downloadWindow = window.open('', "_blank");
+                }
+                this.showInfoPage(itemResult, false);
             })));
         },
 

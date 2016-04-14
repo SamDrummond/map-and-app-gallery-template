@@ -16,7 +16,7 @@
  */
 define({
     root: ({
-        tagHeaderText: "Tags",
+        tagHeaderText: "Keywords",
         expandGroupDescText: "More",
         shrinkGroupDescText: "Less",
         layoutText: "Layout",

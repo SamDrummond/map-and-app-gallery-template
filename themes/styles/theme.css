@@ -66,10 +66,11 @@ font
 
 .esriCTTagCloud
 {
-    word-wrap: break-word;
-    display: inline;
+    /*word-wrap: break-word;
+    display: inline;*/
     cursor: pointer;
     font-weight: normal;
+	margin: 4px;
 }
 
 .esriCTBreakWord
@@ -194,6 +195,10 @@ font
 .esriCTEyeIconPadding
 {
     padding-left: 5px;
+}
+
+.esriCTSignIn.displayBlock{
+	display: none;
 }
 
 .esriCTSignIn
@@ -1581,7 +1586,7 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 
 .blueTheme .esriCTRatingStarIconColor
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .esriCTMenuTabRight div span
@@ -1592,21 +1597,21 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 
 .blueTheme input
 {
-    border: 1px solid #007ac2;
+    border: 1px solid #0099DC;
 }
 
 .blueTheme .esriCTMapIcons, .blueTheme .esriCTGeolocationIcon
 {
     color: white;
-    background-color: #007ac2;
+    background-color: #0099DC;
     overflow: hidden;
 }
 
 .blueTheme .esriCTAutoSuggest
 {
-    border-left: 1px solid #007ac2;
-    border-right: 1px solid #007ac2;
-    border-bottom: 1px solid #007ac2;
+    border-left: 1px solid #0099DC;
+    border-right: 1px solid #0099DC;
+    border-bottom: 1px solid #0099DC;
 }
 
 /* Left panel */
@@ -1618,7 +1623,7 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 
 .blueTheme .esriCTLeftPanelHeader, .blueTheme .esriCTLeftPanelHeaderMap
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .esriCTLeftText div span
@@ -1628,22 +1633,22 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 
 .blueTheme .esriCTReviewHeader
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .esriCTListAppTitle
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .esriCTCategoriesHeader
 {
-    color: #007ac2 !important;
+    color: #0099DC !important;
 }
 
 .blueTheme .esriCTAppImage
 {
-    border: 1px solid #007ac2;
+    border: 1px solid #0099DC;
 }
 
 .blueTheme .esriCTImageTopPanel
@@ -1653,32 +1658,32 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 
 .blueTheme .esriCTMenuTab
 {
-    background: none repeat scroll 0 0 #007ac2;
-    border-bottom: 1px solid #007ac2;
+    background: none repeat scroll 0 0 #0099DC;
+    border-bottom: 1px solid #0099DC;
 }
 
 .blueTheme .esriCTMenuTabRightMap
 {
-    background: none repeat scroll 0 0 #007ac2;
-    border-bottom: 1px solid #007ac2;
+    background: none repeat scroll 0 0 #0099DC;
+    border-bottom: 1px solid #0099DC;
 }
 
 .blueTheme .esriCTTagCloudHighlight
 {
     color: #fff;
-    background: #007ac2;
+    background: #0099DC;
     padding: 3px 20px 3px 10px;
     border-radius: 3px;
     margin: 2px;
     background-image: url('../images/close.png') !important;
     background-position: right;
     background-repeat: no-repeat;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .blueTheme .esriCTSharingTag
 {
-    background: #007ac2;
+    background: #0099DC;
     color: #fff;
 }
 
@@ -1696,7 +1701,7 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 
 .blueTheme .esriCTDetailsMap img
 {
-    border: 1px solid #007ac2;
+    border: 1px solid #0099DC;
 }
 
 .blueTheme .esriCTButtonPrimary
@@ -1721,74 +1726,74 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 
 .blueTheme .dijitDialogTitleBar
 {
-    background-color: #007ac2;
+    background-color: #0099DC;
 }
 
 .blueTheme .esriCTExpand, .blueTheme .esriCTMoreInfo
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .esriCTMoreResultsButton
 {
-    background: #007ac2;
+    background: #0099DC;
     color: white;
 }
 
 .blueTheme .esriCTEyeIcon
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .esriCTLeftText div span a
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .dijitButton
 {
-    border: 1px solid #007ac2;
+    border: 1px solid #0099DC;
     color: #fff;
-    background-color: #007ac2;
+    background-color: #0099DC;
 }
 
 .blueTheme .esriCTTabList li a.select
 {
-    background: #007ac2;
+    background: #0099DC;
     color: #fff;
     cursor: default !important;
 }
 
 .blueTheme .HomeButton .home, .blueTheme .HomeButton .home:hover
 {
-    background-color: #007ac2;
+    background-color: #0099DC;
 }
 
 .blueTheme .esriSimpleSliderDecrementButton, .blueTheme .esriSimpleSliderIncrementButton
 {
-    background-color: #007ac2 !important;
+    background-color: #0099DC !important;
 }
 
 .blueTheme .dijitDialogUnderlay
 {
-    background: #007ac2;
+    background: #0099DC;
     opacity: 0.55;
 }
 
 .blueTheme .esriCTSearchBtnMap
 {
-    border: 1px solid #007ac2;
+    border: 1px solid #0099DC;
     border-left: none;
 }
 
 .blueTheme .esriCTLayerInfo
 {
-    color: #007ac2;
+    color: #0099DC;
 }
 
 .blueTheme .esriCTSortViews ul
 {
-    background: #007ac2;
+    background: #0099DC;
 }
 
 /* End of Blue Theme Styles */

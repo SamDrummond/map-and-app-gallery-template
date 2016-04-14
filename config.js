@@ -21,15 +21,15 @@
      ],
 
     "values": {
-        "group": "03d0b3fe76494125ab404a2b87b40c5c",
+        "group": "02a0987a35fe45cba2affe16abc91ec0",
         "appid": "",
         "oauthappid": "",
-        "applicationName": "Gallery",
+        "applicationName": "WAIMAP",
         "applicationIcon": "",
         "applicationFavicon": "/themes/images/favicon.ico",
         "theme": "blueTheme",
-        "defaultLayout": "list",
-        "sortField": "numViews",
+        "defaultLayout": "grid",
+        "sortField": "modified",
         "sortOrder": "desc",
         "showRatings": false,
         "showViews": false,
@@ -57,7 +57,7 @@
         "basemapGroupTitle": "",
         "basemapGroupOwner": "",
         "noThumbnail": "themes/images/thumbnailNotAvailable.png",
-        "portalURL": "http://www.arcgis.com",
+        "portalURL": "http://maps.waimakariri.govt.nz/portal",
         "geometryService": "",
         "proxyUrl": ""
     },

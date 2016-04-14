@@ -298,7 +298,7 @@ define([
                     }
                 })));
             }
-            this._loadIcons("shortcut icon", dojo.configData.values.applicationFavicon);
+            //this._loadIcons("shortcut icon", dojo.configData.values.applicationFavicon);
             this._loadIcons("apple-touch-icon-precomposed", appIcon);
             this._loadIcons("apple-touch-icon", appIcon);
         },
