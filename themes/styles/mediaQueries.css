@@ -224,6 +224,8 @@
         font-family: 'Lato' ,sans-serif !important;
         font-size: 14px !important;
     }
+	
+	
 
     .esriCTGalleryContent
     {
@@ -231,7 +233,7 @@
     }
 
     .esriCTSearch
-    {
+	{
         width: 150px;
     }
 
@@ -1171,7 +1173,7 @@
     {
         font-size: 14px !important;
     }
-
+	
     .esriCTIETest
     {
         top: 50px;
@@ -2252,3 +2254,27 @@
         white-space: nowrap;
     }
 }
+
+@media screen and (max-width: 640px){
+	.blueTheme .esriCTMenuTab
+	{
+		background: none repeat scroll 0 0 #0099DC;
+		border-bottom: 1px solid #0099DC;
+	}
+	
+	img.esriCTApplicationIcon {
+		visibility: collapse;
+	}
+	
+	.esriCTHomeIcon{
+		height:0px;
+	}
+	
+	.esriCTMenuTab {
+		line-height: 41px;
+	}
+	
+	.esriCTSearchContainerDiv
+	{
+		padding: 0px;	
+	}
